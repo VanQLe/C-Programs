@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="Chap_2_ex4_change_lable.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chap_2_ex4_change_lable">
+
+</Application>

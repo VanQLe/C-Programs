@@ -39,15 +39,20 @@ namespace ch1_ex3_if_else
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
             int x = 5;
-            if (x == 10)
-            {
-
-            }
+            if(x == 10)
+                myLabel.Text = "X is not 5";
+            else
+                myLabel.Text = "X is 5";
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
+            int x = 5;
+            for(int i = 0; i < 5; i++){
+                myLabel.Text = ""+ i;
+           
 
+            }
         }
 
         private void Button4_Click(object sender, RoutedEventArgs e)
